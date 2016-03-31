@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+#include <math.h>     
+#define PI 3.14159265
+
+double tangent(double m )
+{
+  double param, result;
+  param = m;
+  return result = tan ( param * PI / 180.0 );
+ }
+ 
+ int main(){
+ 	int t,a,H,l;
+ 	double m,k,A,h;
+ 	cin>>t>>endl;
+ 	cin>>a>>H>>m;
+ 	k=tangent(m);
+ 	l=k*a;
+	slope=tan(H/a)
+ 	//its the logic...its correct!!
+	while(t--=0)
+	if(slope<=k)
+	{h=(1/2)*H*H*k;
+	cout<<h;	
+	}
+
+	else
+	{ 	
+	A=(1/2)*l+(H-l);
+ 	h=(H*a-A)/a;
+ 	cout<<h;
+	}
+ 	return 0;
+ 	
+ 	
+ 	
+ }
